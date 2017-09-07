@@ -1,6 +1,6 @@
 # tensorgo
 Using the tensorgo API for TensorFlow Async Model Parallel
-![](http://7xl3p7.com1.z0.glb.clouddn.com/17-9-7/27951346.jpg)
+![](http://7xl3p7.com1.z0.glb.clouddn.com/17-9-7/11824570.jpg)
 The system is designed to be simple to use, while maintaining efficiency speedup and approximate model performence(may be better).
 Three lines to transfer your model into a multi-gpu trainer.
 
