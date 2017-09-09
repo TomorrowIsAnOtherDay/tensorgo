@@ -16,3 +16,8 @@ train_config = TrainConfig(dataset=training_dataset, model=bow_model, n_towers=5
 trainer = MultiGpuTrainer(train_config)
 trainer.run()
 ```
+
+# ToDo list
+- [ ] add feed\_dict api for dropout/batchnorm paramenters
+- [ ] add model saver
+- [ ] add user-defined api for model output
