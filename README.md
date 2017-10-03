@@ -17,7 +17,16 @@ trainer = MultiGpuTrainer(train_config)
 trainer.run()
 ```
 
+
 # ToDo list
-- [x] add feed\_dict api for dropout/batchnorm paramenters
+- [ ] add benchmark for image model, like cifar10 benchmark of official TF benchmak
 - [ ] add model saver
 - [ ] add user-defined api for model output
+- [x] add feed\_dict api for dropout/batchnorm paramenters (2017.10.3)
+
+# Reference
+- [Large Scale Distributed Deep Networks][1]
+- [tensorpack][2]
+
+[1]:http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf
+[2]:https://github.com/ppwwyyxx/tensorpack/tree/master/tensorpack
