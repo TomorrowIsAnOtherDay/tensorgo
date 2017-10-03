@@ -12,7 +12,7 @@ from tensorgo.train.config import TrainConfig
 # [Define your own model using initial tensorflow API]
 bow_model = ...
 
-train_config = TrainConfig(dataset=training_dataset, model=bow_model, n_towers=5, commbatch=50000/32)
+train_config = TrainConfig(dataset=training_dataset, model=bow_model, n_towers=5, commbatch=1500)
 trainer = MultiGpuTrainer(train_config)
 trainer.run()
 ```
