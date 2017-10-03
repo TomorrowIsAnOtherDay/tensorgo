@@ -20,9 +20,10 @@ trainer.run()
 
 # ToDo list
 - [ ] add benchmark for image model, like cifar10 benchmark of official TF benchmak
+- [ ] add unit test
 - [ ] add model saver
 - [ ] add user-defined api for model output
-- [x] add feed\_dict api for dropout/batchnorm paramenters (2017.10.3)
+- [x] add feed\_dict api for dropout/batchnorm paramenters (2017.10.1)
 
 # Reference
 - [Large Scale Distributed Deep Networks][1]
