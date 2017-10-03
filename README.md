@@ -23,6 +23,7 @@ trainer.run()
 - [ ] add unit test
 - [ ] add model saver
 - [ ] add user-defined api for model output
+- [] sync all the parameters between workers and server before training
 - [x] add feed\_dict api for dropout/batchnorm paramenters (2017.10.1)
 
 # Reference
