@@ -14,8 +14,9 @@ bow_model = ...
 
 train_config = TrainConfig(dataset=training_dataset, model=bow_model, n_towers=5, commbatch=1500)
 trainer = MultiGpuTrainer(train_config)
-probs, labels = trainer.run([model.prob, model.label], feed_dict={model.dropout_prob=0.2,
-                                                  model.bacth_norm_on=True})
+probs, labels = trainer.run([model.prob, model.label], 
+                            feed_dict={model.dropout_prob=0.2,
+                                        model.bacth_norm_on=True})
 ```
 
 
