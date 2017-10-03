@@ -18,6 +18,6 @@ trainer.run()
 ```
 
 # ToDo list
-- [ ] add feed\_dict api for dropout/batchnorm paramenters
+- [x] add feed\_dict api for dropout/batchnorm paramenters
 - [ ] add model saver
 - [ ] add user-defined api for model output
