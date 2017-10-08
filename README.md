@@ -33,4 +33,4 @@ probs, labels = trainer.run([model.prob, model.label],
 - [tensorpack][2]
 
 [1]:http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf
-[2]:https://github.com/ppwwyyxx/tensorpack/tree/master/tensorpack
+[2]:https://github.com/ppwwyyxx/tensorpack
